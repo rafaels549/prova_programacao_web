@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: rgb(24, 24, 113);
+    display: flex;
+}
+.header{
+    list-style-type: none;
+    display: flex;
+    padding: 20px;
+   
+
+}
+.header li{
+     margin: 5px;
+     color: white;
+}
+
+#logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    
+}
+#logo h1{
+     color: rgb(225, 225, 230);
+}
+
+#academia_banner{
+     width: 100%;
+     height: 600px;
+     object-fit: cover;
+}
