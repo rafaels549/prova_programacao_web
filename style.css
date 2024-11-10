@@ -77,15 +77,13 @@ header{
 }
 
 .sobre-nos .text button {
-    font-size: 1.2em;
-    line-height: 1.5;
-     padding: 10px;
-     border-radius: 50px;
-     background-color: rgb(2, 2, 133);
-     color: white;
-     outline: none;
-     border: none;
-   
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
 }
 
 .sobre-nos .image {
@@ -108,6 +106,64 @@ header{
      margin-top: 50px;
     
 }
+.planos {
+    background-color: #292929;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+}
 
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
 
+.planos .card {
+    background-color: #1a1a3a;
+    padding: 20px;
+    border-radius: 10px;
+    color: #ffffff;
+    text-align: center;
+    width: 280px;
+}
+
+.planos .card h2 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.planos .card p {
+    margin-bottom: 20px;
+}
+
+.planos .card button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.planos .card button:hover {
+    background-color: #0056b3;
+}
+
+.details-button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.details-button:hover {
+    background-color: #218838;
+}
 
