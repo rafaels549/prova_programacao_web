@@ -131,6 +131,40 @@ header{
     width: 280px;
 }
 
+
+
+.exercicios .card {
+    display: flex;
+    flex-direction: column;
+    background-color: #1a1a3a;
+    border-radius: 10px;
+    color: #ffffff;
+    text-align: center;
+    width: 280px;
+    overflow: hidden; 
+    transition: transform 0.3s ease;
+    margin: 5px;
+}
+
+.exercicios .image {
+    background-image: url('academia_site_prova_web.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 100%; 
+}
+
+.exercicios .bottom {
+    background-color: #0a0a6d;
+    padding: 10px;
+    border-top: 1px solid #333; 
+    border-radius: 0 0 10px 10px; 
+}
+
+.exercicios .card:hover{
+    transform: scale(1.05);
+}
+
 .planos .card h2 {
     font-size: 1.5em;
     margin-bottom: 15px;
@@ -165,5 +199,13 @@ header{
 
 .details-button:hover {
     background-color: #218838;
+}
+.exercicios{
+    
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 70px;
+     background-color:#1a1a3a;
 }
 
