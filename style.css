@@ -1,0 +1,362 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+header {
+    background-color: rgb(24, 24, 113);
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+}
+
+.header {
+    list-style-type: none;
+
+    display: flex;
+    margin-right: 10%;
+    padding: 20px;
+
+
+}
+
+.header li {
+    margin-right: 30px;
+    color: white;
+}
+
+
+#logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+
+
+}
+
+#logo h1 {
+    color: rgb(225, 225, 230);
+}
+
+#academia_banner {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    display: block;
+}
+
+.sobre-nos {
+    background-color: #1a1a3a;
+    /* Cor de fundo mais escura */
+    color: #ffffff;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.sobre-nos-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.pag .sobre-nos-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    max-width: 1200px;
+    width: 100%;
+}
+.pag .image img{
+    width: 500px;
+}
+
+.sobre-nos .text {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.sobre-nos .text h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.sobre-nos .text p {
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+.sobre-nos .text button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.sobre-nos .image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.pag {
+    background-color: #1a1a3a;
+    /* Cor de fundo mais escura */
+    color: #ffffff;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    height: 100vh;
+}
+
+.pag .sobre-nos-content-pag {
+    background-color: #1a1a3a;
+    /* Cor de fundo mais escura */
+    color: #ffffff;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    align-items: center;
+}
+
+.sobre-nos .image img {
+    width: 300px;
+    height: 300px;
+    max-width: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 50px;
+
+}
+
+.planos {
+    background-color: #292929;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+.pag .planos {
+    background-color: #292929;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.planos .card {
+    background-color: #1a1a3a;
+    padding: 20px;
+    border-radius: 10px;
+    color: #ffffff;
+    text-align: center;
+    width: 280px;
+}
+
+.exercicios .card {
+    display: flex;
+    flex-direction: column;
+    background-color: #1a1a3a;
+    border-radius: 10px;
+    color: #ffffff;
+    text-align: center;
+    width: 280px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    margin: 5px;
+}
+
+.exercicios a:first-child .card .image {
+    background-image: url('exercicio_perna.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 100%;
+}
+
+.exercicios a:nth-child(2) .card .image {
+    background-image: url('triceps_peito.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 100%;
+}
+
+.exercicios a:nth-child(3) .card .image {
+    background-image: url('costas_biceps.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 100%;
+}
+
+.exercicios .bottom {
+    background-color: #0a0a6d;
+    padding: 10px;
+    border-top: 1px solid #333;
+    border-radius: 0 0 10px 10px;
+}
+
+.exercicios .card:hover {
+    transform: scale(1.05);
+}
+
+.planos .card h2 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.planos .card p {
+    margin-bottom: 20px;
+}
+
+.planos .card button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.planos .card button:hover {
+    background-color: #0056b3;
+}
+
+.details-button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.details-button:hover {
+    background-color: #218838;
+}
+
+.exercicios {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    background-color: #1a1a3a;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    color: whitesmoke;
+    cursor:default;
+    
+}
+footer {
+    background-color: #282c34;
+    color: #ffffff;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-content h3 {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.footer-content p {
+    font-size: 1rem;
+    color: #cccccc;
+    margin-bottom: 1.5rem;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.footer-links a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #61dafb;
+}
+
+.footer-social {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.footer-social a img {
+    width: 24px;
+    height: 24px;
+    transition: transform 0.3s ease;
+}
+
+.footer-social a:hover img {
+    transform: scale(1.1);
+}
+
+.footer-bottom {
+    background-color: #1c1e22;
+    padding: 1rem 0;
+    margin-top: 1rem;
+    margin-bottom: -50px;
+   
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-size: 0.875rem;
+    color: #cccccc;
+}
